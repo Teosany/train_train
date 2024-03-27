@@ -74,6 +74,8 @@ fn main() {
     // let x = plus_un(5);
     //
     // println!("La valeur de x est : {}", x)
+
+    /////////////////// IF ELSE LOOP
 }
 
 // fn plus_un(x: i32) -> i32 {
