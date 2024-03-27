@@ -1,5 +1,4 @@
-
-use std::io;
+// use std::io;
 
 fn main() {
     // let espaces = "      ";
@@ -33,34 +32,50 @@ fn main() {
     //
     // println!("La valeur de y est : {}", y);
 
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    // let a: [i32; 5] = [1, 2, 3, 4, 5];
 
     // let premier = a[0];
     // let second = a[1];
 
-    println!("Veuillez entrer un indice de tableau.");
+    // println!("Veuillez entrer un indice de tableau.");
+    //
+    // let mut indice = String::new();
+    //
+    // io::stdin()
+    //     .read_line(&mut indice)
+    //     .expect("Échec");
+    //
+    // let indice: usize = indice
+    //     .trim()
+    //     .parse()
+    //     .expect("L'indice entré n'est pas un nombre");
+    //
+    // let element = a[indice];
+    //
+    // println!(
+    //     "La valeur de l'élément d'indice {} est : {}", indice, element
+    // );
 
-    let mut indice = String::new();
+    // assert_eq!(find_smallest_int(&[34, 15, 88, 2]), 2, "we are testing addithion with {} and {}", find_smallest_int(&[34, 15, 88, 2]), 2);
 
-    io::stdin()
-        .read_line(&mut indice)
-        .expect("Échec");
+    afficher_mesure_avec_unite(5, 'h');
 
-    let indice: usize = indice
-        .trim()
-        .parse()
-        .expect("L'indice entré n'est pas un nombre");
-
-    let element = a[indice];
-
-    println!(
-        "La valeur de l'élément d'indice {} est : {}", indice, element
-    );
-
-    // fn find_smallest_int(arr: &[i32]) -> i32 {
-//     return arr[0].min()
-//         for i in 0..arr.len() {
-//             println!("df");
-//         };
-//     }
 }
+
+fn afficher_mesure_avec_unite(valeur: i32, unite: char) {
+    println!("La mesure est : {}{}", valeur, unite);
+}
+
+// fn find_smallest_int(arr: &[i32]) -> i32 {
+    // let mut min = arr[0];
+    // let max = 10;
+    //
+    // for i in 0..arr.len() {
+    //     if min > arr[i] {
+    //         min = arr[i];
+    //     }
+    // }
+    // min
+    // *arr.iter().min().unwrap()
+    // arr.iter().min().unwrap().clone()
+// }
