@@ -58,13 +58,35 @@ fn main() {
 
     // assert_eq!(find_smallest_int(&[34, 15, 88, 2]), 2, "we are testing addithion with {} and {}", find_smallest_int(&[34, 15, 88, 2]), 2);
 
-    afficher_mesure_avec_unite(5, 'h');
-
+    // afficher_mesure_avec_unite(5, 'h');
+    //
+    // let y = {
+    //     let x = 3;
+    //     x + 1
+    // };
+    //
+    // println!("La valeur de y est : {}", y);
+    //
+    // let x = cinq();
+    //
+    // println!("La valeur de x est : {}", x);
+    //
+    // let x = plus_un(5);
+    //
+    // println!("La valeur de x est : {}", x)
 }
 
-fn afficher_mesure_avec_unite(valeur: i32, unite: char) {
-    println!("La mesure est : {}{}", valeur, unite);
-}
+// fn plus_un(x: i32) -> i32 {
+//     x + 1
+// }
+
+// fn cinq() -> i32 {
+//     5
+// }
+
+// fn afficher_mesure_avec_unite(valeur: i32, unite: char) {
+//     println!("La mesure est : {}{}", valeur, unite);
+// }
 
 // fn find_smallest_int(arr: &[i32]) -> i32 {
     // let mut min = arr[0];
