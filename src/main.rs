@@ -12,6 +12,8 @@ fn main () {
 //         vec.push(i);
 //     }
 //     vec
+//
+//     (1..=n).rev().collect()
 // }
 //
 // #[cfg(test)]
