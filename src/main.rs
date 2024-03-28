@@ -252,3 +252,7 @@
 // *arr.iter().min().unwrap()
 // arr.iter().min().unwrap().clone()
 // }
+
+fn main() {
+
+}
